@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-color: whitesmoke;
+}
+
+nav {
+  padding: 1em;
+  text-align: center;
+  font-size: 2rem;
+  color: whitesmoke;
+  font-weight: 800;
+  letter-spacing: 2px;
+  background-color: blueviolet;
+}
+nav span {
+  cursor: pointer;
+}
+.score {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+main {
+  padding: 2em;
+  text-align: center;
+}
+main p {
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+section {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2em;
+  padding: 1em;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+section div {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+.player div {
+  color: wheat;
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+}
+.player div:hover {
+  transform: scale(1.1);
+}
+.cpu div {
+  color: wheat;
+  background-color: black;
+}
