@@ -74,3 +74,14 @@ section div {
   color: wheat;
   background-color: black;
 }
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+  section div {
+    height: 70px;
+    width: 70px;
+    font-size: 0.7rem;
+  }
+}
